@@ -6,6 +6,7 @@ import List from "./components/EventHnadler";
 import LoginForm from "./components/FrmWithControlledInpuut";
 import MultiplInputForm from "./components/multControInputOneHandler";
 
+
 function App() {
   const colors = ["Red", "Green", "Blue"];
 
@@ -17,6 +18,7 @@ function App() {
       <List items={colors} /><br /><br />
       <LoginForm /><br /><br />
       <MultiplInputForm />
+     
     </div>
   );
 }
