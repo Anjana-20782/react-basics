@@ -6,6 +6,7 @@ import List from "./components/EventHnadler";
 import LoginForm from "./components/FrmWithControlledInpuut";
 import MultiplInputForm from "./components/multControInputOneHandler";
 import CheckBoxDemo from "./components/CheckBox";
+import RadioDemo from "./components/RadioBtn";
 
 
 function App() {
@@ -18,8 +19,9 @@ function App() {
       <ToggleDiv /><br></br>
       <List items={colors} /><br /><br />
       <LoginForm /><br /><br />
-      <MultiplInputForm />
-      <CheckBoxDemo />
+      <MultiplInputForm /><br /><br />
+      <CheckBoxDemo /><br /><br />
+      <RadioDemo />
      
     </div>
   );
