@@ -1,13 +1,14 @@
 import React from "react";
 import Counter from "./components/Counter";
+import InputDemo from "./components/InputFiledUpdate";
 
 function App(){
 
     return(
 
         <div>
-
-            <Counter />
+            <Counter /><br /><br />
+            <InputDemo />
         </div>
     )
 }
