@@ -3,7 +3,8 @@ import Hello from "./components/Hello"
 import Greeting from "./components/Greeting"
 import FruitsList from "./components/FruitsList";
 import User from "./components/Logged";
-import AlertButton from "./assets/AlertButton";
+import AlertButton from "./components/AlertButton";
+import Clock from "./components/DateTimeUsingState";
 
 function App(){
   return(
@@ -14,6 +15,7 @@ function App(){
         <FruitsList />
         <User />
         <AlertButton />
+         <Clock />
     </div>
   )
 }
