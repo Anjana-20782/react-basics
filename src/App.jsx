@@ -5,6 +5,7 @@ import FruitsList from "./components/FruitsList";
 import User from "./components/Logged";
 import AlertButton from "./components/AlertButton";
 import Clock from "./components/DateTimeUsingState";
+import Parent from "./components/ParentChildProps";
 
 function App(){
   return(
@@ -16,6 +17,7 @@ function App(){
         <User />
         <AlertButton />
          <Clock />
+         <Parent />
     </div>
   )
 }
