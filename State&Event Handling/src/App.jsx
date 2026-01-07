@@ -1,6 +1,7 @@
 import React from "react";
 import Counter from "./components/Counter";
 import InputDemo from "./components/InputFiledUpdate";
+import ToggleDiv from "./components/ToggleVisibility";
 
 function App(){
 
@@ -9,6 +10,7 @@ function App(){
         <div>
             <Counter /><br /><br />
             <InputDemo />
+            <ToggleDiv />
         </div>
     )
 }
