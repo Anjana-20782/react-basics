@@ -6,6 +6,7 @@ import User from "./components/Logged";
 import AlertButton from "./components/AlertButton";
 import Clock from "./components/DateTimeUsingState";
 import Parent from "./components/ParentChildProps";
+import UserList from "./components/ArrayOfObject";
 
 function App(){
   return(
@@ -18,6 +19,7 @@ function App(){
         <AlertButton />
          <Clock />
          <Parent />
+         <UserList />
     </div>
   )
 }
