@@ -6,6 +6,10 @@ function UpdateDocument(){
 
         useEffect(()=>{document.title = `Count: ${count}`;},[count]);
 
+        //componetDid update eqivalent
+
+        useEffect(()=>{console.log("CountUpdated",count);},[count]);
+
         return(
             <div>
                 <h1>Count:{count}</h1>
