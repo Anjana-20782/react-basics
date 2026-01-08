@@ -7,6 +7,7 @@ import SortList from "./components/SortList";
 import MapObject from "./components/MapObject";
 import NestedComponent from "./components/NestedComponent";
 import MemoizedList from "./components/MemoizedList";
+import DynamicCssClasses from "./components/DynamicCssClasses";
 
 
 function App(){
@@ -23,6 +24,7 @@ function App(){
       <MapObject />
       <NestedComponent />
       <MemoizedList />
+      <DynamicCssClasses />
     </div>
   )
 }
