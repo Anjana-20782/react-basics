@@ -2,6 +2,7 @@ import React from "react";
 import ComponentDidMounted from "./components/Mounted";
 import FetchDocument from "./components/FetchApi";
 import UpdateDocument from "./components/UpdateDocument";
+import FetchDataProps from "./components/FetchDataProps";
 
 
 function App(){
@@ -12,6 +13,7 @@ function App(){
       <ComponentDidMounted />
       <FetchDocument />
       <UpdateDocument />
+      <FetchDataProps />
     </div>
   )
 }

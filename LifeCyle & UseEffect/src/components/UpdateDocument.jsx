@@ -2,6 +2,8 @@ import { useEffect,useState } from "react";
 
 function UpdateDocument(){
 
+    //update document title with state
+
     const [count,setCount] = useState(null)
 
         useEffect(()=>{document.title = `Count: ${count}`;},[count]);
@@ -9,6 +11,13 @@ function UpdateDocument(){
         //componetDid update eqivalent
 
         useEffect(()=>{console.log("CountUpdated",count);},[count]);
+
+        //componentWillUnmount example
+
+        useEffect(()=>{
+            return () => console.log("CleanUp before Unmount");
+        },[]);
+        
 
         return(
             <div>

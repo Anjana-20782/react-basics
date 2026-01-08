@@ -1,23 +1,25 @@
-import { useState ,useEffect } from "react";
+//cjhild component
 
-function FetchDocument(){
+import { useEffect, useState } from "react";
 
-    const [data,setData]= useState(null)
+function FetchDocument({ id }) {
+  const [data, setData] = useState(null);
 
-     useEffect(() => {
-        fetch("https://jsonplaceholder.typicode.com/users")
-          .then(res => res.json())
-          .then(setData)
-          .catch(console.error);
-      }, []);
-    
-    return(
-        <div>
-              <h2>Component Mounted Example</h2>
+  useEffect(() => {
+    if (!id) return;   // avoid fetch when id is empty
+
+    fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
+      .then(res => res.json())
+      .then(setData)
+      .catch(console.error);
+  }, [id]);
+
+  return (
+    <div>
+      <h2>User Details</h2>
       <pre>{JSON.stringify(data, null, 2)}</pre>
-        </div>
-    )
-
+    </div>
+  );
 }
 
 export default FetchDocument;
