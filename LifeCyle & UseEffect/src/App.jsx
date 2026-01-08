@@ -3,6 +3,7 @@ import ComponentDidMounted from "./components/Mounted";
 import FetchDocument from "./components/FetchApi";
 import UpdateDocument from "./components/UpdateDocument";
 import FetchDataProps from "./components/FetchDataProps";
+import MultipleUseEffect from "./components/MultipleUseEffect";
 
 
 function App(){
@@ -14,6 +15,7 @@ function App(){
       <FetchDocument />
       <UpdateDocument />
       <FetchDataProps />
+      <MultipleUseEffect />
     </div>
   )
 }

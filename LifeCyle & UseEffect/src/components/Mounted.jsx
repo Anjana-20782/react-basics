@@ -15,7 +15,7 @@ function ComponentDidMounted(){
         return ()=>clearInterval(timer);
     }, []);
 
-
+    
   
     return (
     <div>
