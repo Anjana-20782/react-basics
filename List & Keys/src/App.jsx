@@ -1,5 +1,6 @@
 import React from "react";
 import ListUnique from "./components/ListUnique";
+import NestedList from "./components/NestedList";
 
 function App(){
 
@@ -8,6 +9,7 @@ function App(){
 
     <div>
       <ListUnique />
+      <NestedList />
     </div>
   )
 }
