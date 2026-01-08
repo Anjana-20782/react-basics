@@ -18,7 +18,7 @@ function NestedList(){
     return(
 
        categories.map(c=>(
-        <div key={c.id}>
+        <div style={{color:"green"}} key={c.id}>
             <h2>{c.name}</h2>
             <ul>
                 {c.items.map(i=><li key={i}>{i}</li>)}</ul>

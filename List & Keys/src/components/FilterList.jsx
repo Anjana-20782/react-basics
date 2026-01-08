@@ -4,7 +4,7 @@ function FilterList(){
 
       const [search, setSearch] = useState("");
 
-      const items = ["Apple", "Banana", "Orange"];
+      const items = ["Apple", "Banana", "Orange","Carrot","Potato","Tomato","Onion","Cabbage","Table", "Chair", "Shelf"];
 
       const filteredItems = items.filter(i =>
     i.toLowerCase().includes(search.toLowerCase())

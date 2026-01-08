@@ -3,6 +3,9 @@ import ListUnique from "./components/ListUnique";
 import NestedList from "./components/NestedList";
 import ConditionalList from "./components/ConditionalList";
 import FilterList from "./components/FilterList";
+import SortList from "./components/SortList";
+import MapObject from "./components/MapObject";
+
 
 function App(){
 
@@ -14,6 +17,8 @@ function App(){
       <NestedList />
       <ConditionalList />
       <FilterList />
+      <SortList />
+      <MapObject />
     </div>
   )
 }

@@ -1,10 +1,10 @@
 import React from "react";
 
 function ConditionalList() {
-  const items = ["Apple", "Banana", "Orange"];
+  const items = ["Table", "Chair", "Shelf"];
 
   return (
-    <div>
+    <div style={{color:"violet"}}>
       {items.length > 0 ? (
         items.map(item => <p key={item}>{item}</p>)
       ) : (
