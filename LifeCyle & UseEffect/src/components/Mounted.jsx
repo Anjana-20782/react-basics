@@ -1,9 +1,11 @@
 import React, { useEffect } from "react";
 
 function ComponentDidMounted(){
+
     //componentDidMount example
     console.log("Mounted");
 
+ 
     //useeffect equivalent
     useEffect(()=>{console.log("componentdidMount"); }, []);
 
@@ -14,7 +16,7 @@ function ComponentDidMounted(){
     }, []);
 
 
-    
+  
     return (
     <div>
       
