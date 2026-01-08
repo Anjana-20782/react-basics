@@ -5,6 +5,8 @@ import ConditionalList from "./components/ConditionalList";
 import FilterList from "./components/FilterList";
 import SortList from "./components/SortList";
 import MapObject from "./components/MapObject";
+import NestedComponent from "./components/NestedComponent";
+import MemoizedList from "./components/MemoizedList";
 
 
 function App(){
@@ -19,6 +21,8 @@ function App(){
       <FilterList />
       <SortList />
       <MapObject />
+      <NestedComponent />
+      <MemoizedList />
     </div>
   )
 }
