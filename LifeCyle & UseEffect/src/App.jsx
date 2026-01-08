@@ -1,5 +1,6 @@
 import React from "react";
 import ComponentDidMounted from "./components/Mounted";
+import FetchDocument from "./components/FetchApi";
 
 
 function App(){
@@ -8,6 +9,7 @@ function App(){
 
     <div>
       <ComponentDidMounted />
+      <FetchDocument />
     </div>
   )
 }
